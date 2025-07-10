@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="preload" href="index.css" as="style" />
     <link
       rel="preload"
@@ -105,197 +105,299 @@
     <article>
       <section class="hero">
         <h1>Alexandros Pappas</h1>
-        <p>A full stack web and hybrid applications developer.</p>
-        <p>Currently working as a front-end web developer at Arcanys.</p>
-        <img src="photo.jpg" alt="Photo of me" />
+        <p>A Web and Hybrid applications developer.</p>
+        <div>
+          <img src="photo.jpg" alt="Photo of me" />
+        </div>
       </section>
+      <div class="dotted-border w-full"></div>
+      <div class="dotted-border w-full mt-3xs"></div>
+      <div class="dotted-border w-full mt-3xs"></div>
       <section class="career">
         <h2>Career</h2>
         <div>
-          <p>July 2021 — Present</p>
+          <p class="date">July 2021 — Present</p>
           <a href="https://arcanys.com" target="_blank">
             <img src="arcanys.svg" alt="arcanys" />
           </a>
-          <p>Arcanys — Web Developer / Senior Angular Developer</p>
+          <p>Web Developer</p>
           <div>
             <img src="sample-map.png" alt="Arcanys office address on the map" />
           </div>
-          <p>Recent Projects:</p>
+          <p class="mt-s">Projects:</p>
           <ul>
             <li>
               <a href="https://extelinsights.com" target="_blank">
-                <img src="extel.svg" alt="extel" class="invert" />
+                <img src="extel.svg" alt="Extel Insights" class="invert" />
               </a>
               <p>
-                Extel Insights is a platform that offers data, research,
-                articles, and insights, alongside surveys and voting, to help
-                the global investment community make strategic decisions.
+                Extel Insights is an intelligence platform for the global
+                investment community, providing data & interactive surveys.
               </p>
-              <p>
-                Technologies: <span class="angular"></span> Angular,
-                <span class="csharp"></span> <span class="dotnet"></span>.NET,
-                <span class="nodejs"></span> NodeJS,
-                <span class="tailwind"></span> Tailwind CSS
+              <p
+                class="flex stretch"
+                aria-label="Technologies used in Extel Insights"
+              >
+                <!-- <span>Technologies:</span> -->
+                <span class="pill">
+                  <span class="angular" aria-hidden="true"></span> Angular
+                </span>
+                <span class="pill py-0 gap-0">
+                  <span class="dotnet" aria-hidden="true"></span>
+                  <span class="py-3xs">.NET</span>
+                </span>
+                <span class="pill">
+                  <img src="qlik.svg" alt="Qlik" aria-hidden="true" />
+                </span>
+                <span class="pill">
+                  <img src="directus.webp" alt="Directus" aria-hidden="true" />
+                  Directus
+                </span>
+                <span class="pill py-0 gap-0">
+                  <span class="nodejs" aria-hidden="true"></span> NodeJS
+                </span>
+                <span class="pill">
+                  <span class="tailwind" aria-hidden="true"></span> Tailwind
+                </span>
               </p>
             </li>
             <li>
               <a href="https://traxmate.com" target="_blank">
-                <img src="traxmate.svg" alt="traxmate" />
+                <img src="traxmate.svg" alt="Traxmate" />
               </a>
               <p>
-                An IoT platform for deploying robust tracking solutions with
-                seamless indoor and outdoor positioning. Key features include
-                real-time 3D indoor positioning, 3D object creation with
-                building floor plans, and advanced tracking technology that
-                surpasses basic GPS by utilizing cell tower triangulation for
-                enhanced performance.
+                Traxmate is an IoT platform for real-time 3D indoor-outdoor
+                positioning with hybrid tech surpassing GPS precision.
               </p>
-              <p>
-                Technologies: <span class="angular"></span> Angular,
-                <span class="threejs"></span> three.js,
-                <span class="nodejs"></span> NodeJS, <span class="go"></span>,
-                <span class="python"></span> Python,
-                <span class="firebase"></span> Firebase
+              <p class="flex" aria-label="Technologies used in Traxmate">
+                <!-- <span>Technologies:</span> -->
+                <span class="pill">
+                  <span class="angular" aria-hidden="true"></span> Angular
+                </span>
+                <span class="pill">
+                  <span class="threejs" aria-hidden="true"></span> three.js
+                </span>
+                <span class="pill">
+                  <span class="nodejs" aria-hidden="true"></span> NodeJS
+                </span>
+                <span class="pill">
+                  <span class="go" aria-label="Go"></span>
+                </span>
+                <span class="pill">
+                  <span class="python" aria-hidden="true"></span> Python
+                </span>
               </p>
             </li>
           </ul>
         </div>
         <div>
-          <p>May 2019 — July 2021</p>
-          <a href="https://global.fujitsu/en-apac" target="_blank">
-            <img src="fujitsu.svg" alt="fujitsu" />
+          <p class="date">May 2019 — July 2021</p>
+          <a
+            href="https://global.fujitsu/en-apac"
+            target="_blank"
+            aria-label="Fujitsu Philippines"
+          >
+            <img src="fujitsu.svg" alt="Fujitsu" class="white" />
           </a>
-          <p>Fujitsu Philippines — Systems Application Engineer & Consultant</p>
+          <p>Systems Application Engineer & Consultant</p>
           <div>
             <img src="sample-map.png" alt="Arcanys office address on the map" />
           </div>
-          <p>
-            Hired as an Applications Engineer and Consultant, I served as a team
-            lead on multiple Fujitsu projects, managing legacy systems built
-            with ColdFusion, Java, and C#. I also initiated internal innovations
-            using modern JavaScript technologies such as Vue, Quasar, and React.
-            And conducted lectures on JavaScript technologies for hybrid and web
-            development such as React Native and Ionic.
+          <p class="story">
+            Co-led projects that kept deeply entrenched legacy systems (e.g.
+            ColdFusion, Java, C#) alive and stable, spearheaded innovations with
+            JavaScript frameworks like Vue and React, and upskilled teams by
+            conducting lectures on hybrid development with Ionic and React
+            Native.
           </p>
-          <p>Recent Projects:</p>
+          <p class="mt-s">Projects:</p>
           <ul>
             <li>
-              <img src="fujitsu.svg" alt="fujitsu" class="white" />
-              <p>Assets Management System</p>
-              <p>
-                An internal project built for managing assets (inventory) within
-                the Fujitsu office. Tracking items (laptops, monitors,
-                keyboards, etc.), processing transactions like compliance to
-                PEZA policies and management approval, and generating QR code
-                stickers are just a few of its functionalities.
+              <p class="montserrat" style="font-weight: 600">
+                Assets Management System
+                <span style="color: red; font-weight: 200">[NDA]</span>
               </p>
               <p>
-                Technologies: <span class="vue"></span> Vue,
-                <span class="django"></span>,
-                <span class="quasar"></span> Quasar
+                An internal inventory management system built to manage physical
+                company assets and streamline administrative tasks such as QR
+                code tagging and compliance to PEZA policies.
+              </p>
+              <p
+                class="flex stretch"
+                aria-label="Technologies used on the Assets Management System"
+              >
+                <span class="pill gap-0">
+                  <span class="python" aria-hidden="true"></span>
+                  <span class="django" aria-label="Django"></span>
+                </span>
+                <span class="pill gap-3xs">
+                  <span class="vue" aria-hidden="true"></span> Vue
+                </span>
+                <span class="pill">
+                  <span class="quasar" aria-hidden="true"></span> Quasar
+                </span>
               </p>
             </li>
             <li>
-              <img src="fujitsu.svg" alt="fujitsu" class="white" />
               <p>Other NDA-bound projects</p>
-              <p>
-                Technologies: <span class="coldfusion"></span> Adobe ColdFusion,
-                <span class="java"></span> Java, <span class="csharp"></span>,
-                <span class="react"></span> React Native,
-                <span class="flutter"></span> Flutter
+              <p class="flex" aria-label="Technologies used on the projects">
+                <span class="pill">
+                  <span class="coldfusion" aria-hidden="true"></span> Adobe
+                  ColdFusion
+                </span>
+                <span class="pill">
+                  <span class="java" aria-hidden="true"></span> Java
+                </span>
+                <span class="pill">
+                  <span class="csharp" aria-hidden="true"></span> .NET
+                </span>
+                <span class="pill">
+                  <span class="react" aria-hidden="true"></span> React Native
+                </span>
+                <span class="pill">
+                  <span class="flutter" aria-hidden="true"></span> Flutter
+                </span>
               </p>
             </li>
           </ul>
         </div>
         <div>
-          <p>December 2019 — February 2020</p>
+          <p class="date">December 2019 — February 2020</p>
           <h3 class="pacifico">
             <a href="https://vespadoctor.net" target="_blank">VespaDoctor</a>
           </h3>
-          <p>Vespa Doctor — Freelance Project Manager & Consultant</p>
+          <p class="mt-2xs">Freelance Project Manager & Consultant</p>
           <div>
             <img src="sample-map.png" alt="Arcanys office address on the map" />
           </div>
-          <p>
-            While at Fujitsu PH, I also took on a sideline role as a project
-            manager and consultant. I assembled and led a small team of two PHP
-            and WordPress developers for vespadoctor.net, an e-commerce platform
-            for Vespa scooter parts. My responsibilities included requirements
-            analysis, translating specifications into actionable tasks,
-            estimating man-hours within the client's budget, delegating work,
-            and providing regular progress reports.
+          <p class="story">
+            Assembled and managed a small team of PHP and WordPress developers.
+            My role consists requirements analysis, translating specifications
+            into actionable tasks, and estimating man-hours within the client's
+            budget.
+          </p>
+          <p class="flex mt-s">
+            <span class="pill px-3xs">
+              <span
+                class="wordpress"
+                aria-label="vespadoctor.net is built with WordPress"
+              ></span>
+            </span>
           </p>
         </div>
         <div>
-          <p>October 2018 — April 2019</p>
+          <p class="date">October 2018 — April 2019</p>
           <span class="flex">
-            <img src="our-global-team.png" alt="Our Global Team" />
-            <span class="poppins">Our Global Team</span>
+            <img
+              src="our-global-team.png"
+              alt="Our Global Team"
+              aria-hidden="true"
+            />
+            <span class="poppins" style="font-weight: 600"
+              >Our Global Team, AU</span
+            >
           </span>
-          <p class="poppins">
-            Our Global Team, AU — Full Stack Developer (Contractor)
-          </p>
+          <p>Full Stack Developer (Contractor)</p>
           <div>
             <img src="sample-map.png" alt="Arcanys office address on the map" />
           </div>
-          <p>
-            Hired as a full-stack developer and one of the pioneering members of
-            an Australian startup, I took on senior-level
-            responsibilities—leading the frontend team, architecting two
-            projects, and actively shaping the company's growth and development.
+          <p class="story">
+            Co-pioneered an Australian startup company as a senior front-end
+            developer and consultant, architecting two projects, and
+            contributing to the building of the company from literally
+            assembling office chairs, installing biometrics, to managing the
+            frontend team.
           </p>
-          <p>Recent Projects:</p>
+          <p class="mt-s">Projects:</p>
           <ul>
             <li>
-              <p>Manufacturing Management System (NDA-bound)</p>
-              <p>
-                A web application designed to support manufacturing operations,
-                including integrated solutions for Inventory Management, Bill of
-                Materials (BOM), and Employee Management (EMS).
+              <p class="montserrat" style="font-weight: 600">
+                Manufacturing Management System
+                <span style="color: red; font-weight: 200">[NDA]</span>
               </p>
               <p>
-                Technologies: <span class="angular"></span> Angular,
-                <span class="nodejs"></span> NodeJS,
-                <span class="sequelize"></span> Sequelize
+                An administrative platform for manufacturing operations which
+                consists of Inventory Management, Bill of Materials (BOM), and
+                Employee Management (EMS) among others.
+              </p>
+              <p
+                class="flex stretch"
+                aria-label="Technologies used on the Manufacturing Management System"
+              >
+                <span class="pill">
+                  <span class="angular" aria-hidden="true"></span> Angular
+                </span>
+                <span class="pill">
+                  <span class="nodejs" aria-hidden="true"></span> NodeJS
+                </span>
+                <span class="pill">
+                  <span class="sequelize" aria-hidden="true"></span> Sequelize
+                </span>
               </p>
             </li>
             <li>
-              <p>Customer and Production Order Management System (NDA-bound)</p>
+              <p class="montserrat" style="font-weight: 600">
+                Customer and Production Order Management System
+                <span style="color: red; font-weight: 200">[NDA]</span>
+              </p>
               <p>
                 A companion system to the above project, focused on managing
                 customer data and handling production orders, tailored for
                 internal operations of the client.
               </p>
-              <p>
-                Technologies: <span class="angular"></span> Angular,
-                <span class="nodejs"></span> NodeJS, TypeOrm, GraphQL
+              <p
+                class="flex stretch"
+                aria-label="Technologies used on the Customer and Production Order Management System"
+              >
+                <span class="pill">
+                  <span class="angular" aria-hidden="true"></span> Angular
+                </span>
+                <span class="pill">
+                  <span class="nodejs" aria-hidden="true"></span> NodeJS
+                </span>
+                <span class="pill gap-3xs">
+                  <img src="typeorm.png" alt="TypeORM" aria-hidden="true" />
+                  TypeORM
+                </span>
+                <span class="pill">
+                  <span class="graphql" aria-label="GraphQL"></span>
+                </span>
               </p>
             </li>
           </ul>
         </div>
         <div>
-          <p>May 2018 - July 2018</p>
-          <p>Shoperones LLC — Part-Time Full Stack Developer</p>
+          <p class="date">May 2018 - July 2018</p>
+          <span class="poppins">Shoperones LLC</span>
+          <p>Part-time Hybrid Applications Developer (Contractor)</p>
           <div>
             <img src="sample-map.png" alt="Arcanys office address on the map" />
           </div>
-          <p>
+          <p class="story">
             While working full-time at Miller Solutions Development Inc., I took
-            on freelance projects as a side hustle for three months.
+            on a couple of freelance projects as a side hustle for three months.
           </p>
-          <p>Recent Projects:</p>
+          <p class="mt-s">Projects:</p>
           <ul>
             <li>
-              <p class="poppins asx">Australian Stock Market Trade Talk</p>
+              <p class="poppins">Australian Stock Market Trade Talk</p>
               <p>
-                A mobile application that allows users to monitor stock market
-                indices, bonds, commodities, and stock exchange data in
-                real-time.
+                A mobile app that allows users to monitor stock market indices,
+                bonds, commodities, and stock exchange data in real-time.
               </p>
-              <p>
-                Technologies: <span class="angular"></span> Angular,
-                <span class="ionic"></span> Ionic,
-                <span class="firebase"></span> Firebase
+              <p
+                class="flex stretch"
+                aria-label="Technologies used on the Australian Stock Market Trade Talk"
+              >
+                <span class="pill">
+                  <span class="angular" aria-hidden="true"></span> Angular
+                </span>
+                <span class="pill">
+                  <span class="ionic" aria-hidden="true"></span> Ionic
+                </span>
+                <span class="pill">
+                  <span class="firebase" aria-hidden="true"></span> Firebase
+                </span>
               </p>
             </li>
             <li>
@@ -303,50 +405,70 @@
                 href="https://blackvegandating.com"
                 target="_blank"
                 class="flex"
-                ><span class="pacifico light">Black Vegan Dating</span></a
               >
+                <span class="pacifico light">Black Vegan Dating</span>
+              </a>
               <p>Just another dating app</p>
-              <p>
-                Technologies: <span class="angular"></span> Angular,
-                <span class="ionic"></span> Ionic,
-                <span class="firebase"></span> Firebase
+              <p
+                class="flex stretch"
+                aria-label="Technologies used on the Black Vegan Dating app"
+              >
+                <span class="pill">
+                  <span class="angular" aria-hidden="true"></span> Angular
+                </span>
+                <span class="pill">
+                  <span class="ionic" aria-hidden="true"></span> Ionic
+                </span>
+                <span class="pill">
+                  <span class="firebase" aria-hidden="true"></span> Firebase
+                </span>
               </p>
             </li>
           </ul>
         </div>
 
         <div>
-          <span class="flex"
-            ><img src="miller.webp" alt="Miller Solutions Development Inc." />
-            <span class="poppins">Miller Solutions Development Inc.</span></span
-          >
-          <p>April 2016 — September 2018</p>
-          <p>Miller Solutions Development Inc., SE — Software Developer</p>
+          <p class="date">April 2016 — September 2018</p>
+          <span class="flex">
+            <img src="miller.png" alt="Miller Solutions Development Inc." />
+            <span class="poppins">Miller Solutions Development Inc.</span>
+          </span>
+          <p>Software Developer</p>
           <div>
-            <img src="sample-map.png" alt="Arcanys office address on the map" />
+            <img
+              src="sample-map.png"
+              alt="Miller Solutions Development Inc. office address on the map"
+            />
           </div>
-          <p>
-            As my first employment straight out from the university, I worked as
-            one of the pioneering employees in this startup company. Eventually
-            was given an opportunity to lead a development team for a year.
+          <p class="story">
+            Co-pioneered a Swedish startup company as a fresh-grad straight out
+            from Silliman University.
           </p>
-          <p>Recent Projects:</p>
+          <p class="mt-s">Projects:</p>
           <ul>
             <li>
-              <p>PSRS Mobile and Web Application</p>
+              <div class="flex">
+                <span class="psrs-logo"></span>
+                <p class="poppins">Pallservice Renova Syd AB</p>
+              </div>
               <p>
-                A warehouse management system developed for Pallservice Renova
-                Syd AB, designed to manage inbound and outbound pallet
-                operations, track forklift pallet movements across locations,
-                handle pallet exchanges, classify and monitor individual pallet
-                conditions, and facilitate additional processes such as
-                repairing pallets using parts from damaged units, or degrading
-                and discarding irreparable ones.
+                A web application and a companion mobile app for warehouse
+                management, designed to track inbound/outbound pallet movements,
+                monitor pallet conditions, and handle special scenarios in
+                logistics like repairing pallets with salvaged parts, swapping
+                pallets, disposals, and more.
               </p>
-              <p>
-                Technologies: <span class="angular"></span> Angular,
-                <span class="ionic"></span> Ionic, <span class="csharp"></span>
-                <span class="dotnet"></span>.NET
+              <p class="flex stretch">
+                <span class="pill">
+                  <span class="angular" aria-hidden="true"></span> Angular
+                </span>
+                <span class="pill">
+                  <span class="ionic" aria-hidden="true"></span> Ionic
+                </span>
+                <span class="pill py-0 gap-0">
+                  <span class="dotnet" aria-hidden="true"></span>
+                  <span class="py-3xs">.NET</span>
+                </span>
               </p>
             </li>
             <li>
@@ -355,48 +477,90 @@
                 The Great Wild
               </p>
               <p>A social media platform for hunters in Sweden</p>
-              <p>
-                Technologies: <span class="angularjs"></span> AngularJs,
-                <span class="cordova"></span> Apache Cordova,
-                <span class="phonegap"></span> Adobe PhoneGap,
-                <span class="java"></span> Java,
-                <span class="python"></span> Python
+              <p class="flex stretch">
+                <span class="pill">
+                  <span class="angularjs" aria-hidden="true"></span> AngularJs
+                </span>
+                <span class="pill">
+                  <span class="cordova" aria-hidden="true"></span> Apache
+                  Cordova
+                </span>
+                <span class="pill">
+                  <span class="phonegap" aria-hidden="true"></span> Adobe
+                  PhoneGap
+                </span>
+                <span class="pill">
+                  <span class="java" aria-hidden="true"></span> Java
+                </span>
+                <span class="pill">
+                  <span class="python" aria-hidden="true"></span> Python
+                </span>
               </p>
             </li>
             <li>
-              <p>Argus Calendar</p>
+              <p class="flex gap-3xs">
+                <span class="vitec-nordman" aria-hidden="true"></span>
+                <span class="poppins">Argus Calendar</span>
+              </p>
               <p>
                 An internal calendar application similar to today's Microsoft
                 Team Calendar.
               </p>
-              <p>Technologies: <span class="dotnet"></span>.NET UWP</p>
+              <p class="flex">
+                <span class="pill">
+                  <span class="csharp" aria-hidden="true"></span> .NET UWP
+                </span>
+              </p>
             </li>
             <li>
-              <img
-                src="slatto.png"
-                alt="Slättö Förvaltning AB Building Management System"
-                aria-hidden="true"
-              />
-              <p>Slättö Förvaltning AB Building Management System</p>
-              <p>
-                An admin dashboard and CMS application that enables
-                organizations to manage buildings and housing units under their
-                portfolio. It supports uploading and organizing documents such
-                as 3D renderings and floor plans (PDF), and includes an SVG
-                editor for creating interactive polygons—enhancing the apartment
-                picker experience for website visitors with a visually rich,
-                intuitive interface.
+              <p
+                style="display: inline-block"
+                aria-label="Slättö Förvaltning AB Building Management System"
+              >
+                <img
+                  src="slatto.png"
+                  style="display: inline-flex"
+                  alt="Slättö"
+                  aria-hidden="true"
+                />
+                <span
+                  class="poppins text-step-1 font-normal"
+                  aria-hidden="true"
+                >
+                  Förvaltning AB Building Management System
+                </span>
               </p>
               <p>
-                Technologies: <span class="angularjs"></span> AngularJS,
-                <span class="csharp"></span> <span class="dotnet"></span>.NET,
-                <span class="umbraco"></span> Umbraco,
-                <span class="d3"></span> D3, <span class="jquery"></span> JQuery
+                A building management / CMS platform for organizations to manage
+                their housing portfolios. The system combines robust document
+                management for floor plans and 3D renders with custom-built SVG
+                editor which for drawing interactive overlay polygons to be
+                rendered within a proprietary Apartment Picker.
+              </p>
+              <p class="flex stretch">
+                <span class="pill">
+                  <span class="angularjs" aria-hidden="true"></span> AngularJS
+                </span>
+                <span class="pill">
+                  <span class="dotnet" aria-hidden="true"></span> .NET
+                </span>
+                <span class="pill">
+                  <span class="umbraco" aria-hidden="true"></span> Umbraco
+                </span>
+                <span class="pill">
+                  <span class="d3" aria-hidden="true"></span> D3
+                </span>
+                <span class="pill">
+                  <span class="jquery" aria-hidden="true"></span> JQuery
+                </span>
               </p>
             </li>
           </ul>
         </div>
       </section>
+      <div class="dotted-border w-full"></div>
+      <div class="dotted-border w-full mt-3xs"></div>
+      <div class="dotted-border w-full mt-3xs"></div>
     </article>
   </body>
 </html>
