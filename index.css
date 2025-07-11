@@ -389,6 +389,7 @@ img[src*='fujitsu.svg'].white {
 img[src*='photo.jpg'] {
   height: calc(var(--space-3xl) * 2.9);
   filter: grayscale(0.9);
+  align-self: flex-start;
 }
 
 .career .tgw,
@@ -551,4 +552,12 @@ img[src*='sample-map.png'] {
     font-weight: 500;
     margin-left: calc(var(--step-1) * -0.3);
   }
+}
+
+.mt-l {
+  margin-top: var(--space-l);
+}
+
+.leading-\[0\.76\] {
+  line-height: 0.76;
 }
