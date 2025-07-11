@@ -366,7 +366,6 @@ img[src*='tgw.webp'] {
   height: var(--space-l);
 }
 
-
 img[src*='slatto.png'] {
   height: var(--step-1);
   position: relative;
@@ -539,4 +538,17 @@ img[src*='sample-map.png'] {
 
 .font-normal {
   font-weight: 400;
+}
+
+.career p.slatto-text {
+  line-height: 125%;
+  display: inline-block;
+  font-size: calc(var(--step-1) * 1.1);
+  display: inline-block;
+  & span {
+    top: 1px;
+    position: relative;
+    font-weight: 500;
+    margin-left: calc(var(--step-1) * -0.3);
+  }
 }
